@@ -7,7 +7,7 @@ const TicTacToe = () => {
 
   return (
     <>
-      <div>{state.message}</div>
+      <div data-testid="message">{state.message}</div>
       <div className="grid">
         {state.board.map((state: GameState, i: number) => (
           <div
